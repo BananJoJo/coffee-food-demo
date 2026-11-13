@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#2c1a15">
+  <title>Coffee Food — концепт кофейни</title>
+  <link rel="stylesheet" href="style.css?v=3">
+  <script defer src="cart.js"></script>
+</head>
+<body>
+  <header class="wrap top">
+    <a class="wordmark" href="./"><span aria-hidden="true">✦</span> Coffee Food</a>
+    <a class="nav" href="#menu">Меню <span aria-hidden="true">↘</span></a>
+  </header>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="title">
+      <div class="copy">
+        <h1 id="title">Кофе.<br><em>И не спешить.</em></h1>
+        <p>Тёплая чашка и что-нибудь вкусное к ней.</p>
+        <a class="button" href="#menu">Смотреть меню <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="scene" aria-hidden="true">
+        <span class="spark first">✧</span><span class="spark second">✦</span>
+        <svg viewBox="0 0 540 465" class="cup" focusable="false">
+          <defs>
+            <linearGradient id="ceramic" x2=".85" y2="1"><stop stop-color="#fff0d2"/><stop offset=".52" stop-color="#e7bd8f"/><stop offset="1" stop-color="#9c583a"/></linearGradient>
+            <radialGradient id="saucer"><stop stop-color="#a66441"/><stop offset=".66" stop-color="#c78d61"/><stop offset="1" stop-color="#edc298"/></radialGradient>
+            <radialGradient id="coffee" cx=".44" cy=".3"><stop stop-color="#c48550"/><stop offset=".7" stop-color="#9b512b"/><stop offset="1" stop-color="#502618"/></radialGradient>
+            <filter id="shadow"><feGaussianBlur stdDeviation="13"/></filter>
+          </defs>
+          <ellipse cx="274" cy="389" rx="194" ry="29" fill="#1b0b08" opacity=".65" filter="url(#shadow)"/>
+          <ellipse cx="265" cy="355" rx="190" ry="47" fill="url(#saucer)" stroke="#f3cba5" stroke-width="2"/>
+          <ellipse cx="265" cy="351" rx="142" ry="29" fill="none" stroke="#7b4434" opacity=".4" stroke-width="2"/>
+          <path d="M373 228C456 192 478 281 347 311" fill="none" stroke="#bd825c" stroke-width="26" stroke-linecap="round"/>
+          <path d="M379 228C453 198 465 274 347 303" fill="none" stroke="#f0c79f" stroke-width="7" stroke-linecap="round" opacity=".65"/>
+          <path d="M121 213C126 310 174 352 255 355c81 1 130-45 139-142z" fill="url(#ceramic)"/>
+          <ellipse cx="257" cy="213" rx="136" ry="52" fill="#f6d6b1"/>
+          <ellipse cx="257" cy="214" rx="124" ry="43" fill="url(#coffee)"/>
+          <path d="M257 239c-23-12-55-25-44-40 11-13 36-8 44 5 8-13 33-18 44-5 11 15-21 28-44 40Z" fill="#f3cf9e" opacity=".87"/>
+          <path d="M257 238c-11-12-27-20-23-25 5-6 18-3 23 4 5-7 18-10 23-4 4 5-12 13-23 25Z" fill="#b56d42"/>
+          <g fill="none" stroke="#ffe8c9" stroke-width="5" stroke-linecap="round">
+            <path class="steam one" d="M217 164c-29-26 32-38 8-67s4-44 11-56"/>
+            <path class="steam two" d="M265 152c-21-28 31-36 11-64s4-42 11-52"/>
+            <path class="steam three" d="M310 165c-16-18 26-34 12-53s-5-30 6-44"/>
+          </g>
+        </svg>
+      </div>
+    </section>
+    <section class="menu" id="menu" tabindex="-1" aria-labelledby="menu-title">
+      <div class="section-head"><h2 id="menu-title">К чашке кофе</h2><p>Демо меню · позиции и цены для примера</p></div>
+      <div class="tiles">
+        <article data-price="190"><span class="icon" aria-hidden="true">☕</span><h3>Капучино</h3><p>Эспрессо и молочная пенка · 250 мл</p><div class="dish-action"><strong>190 ₽</strong><button type="button" aria-label="Добавить капучино">Добавить</button></div></article>
+        <article data-price="290"><span class="icon" aria-hidden="true">🥐</span><h3>Круассан с курицей</h3><p>Слоёный круассан с курицей и сыром</p><div class="dish-action"><strong>290 ₽</strong><button type="button" aria-label="Добавить круассан с курицей">Добавить</button></div></article>
+        <article data-price="320"><span class="icon" aria-hidden="true">✦</span><h3>Сырники</h3><p>Три сырника со сметаной</p><div class="dish-action"><strong>320 ₽</strong><button type="button" aria-label="Добавить сырники">Добавить</button></div></article>
+        <article data-price="220"><span class="icon" aria-hidden="true">☕</span><h3>Латте</h3><p>Кофе с молоком · 300 мл</p><div class="dish-action"><strong>220 ₽</strong><button type="button">Добавить</button></div></article>
+        <article data-price="160"><span class="icon" aria-hidden="true">☕</span><h3>Американо</h3><p>Чёрный кофе · 200 мл</p><div class="dish-action"><strong>160 ₽</strong><button type="button">Добавить</button></div></article>
+        <article data-price="240"><span class="icon" aria-hidden="true">☕</span><h3>Какао</h3><p>Шоколадный напиток · 250 мл</p><div class="dish-action"><strong>240 ₽</strong><button type="button">Добавить</button></div></article>
+        <article data-price="350"><span class="icon" aria-hidden="true">✺</span><h3>Омлет с сыром</h3><p>С зеленью и тостом</p><div class="dish-action"><strong>350 ₽</strong><button type="button">Добавить</button></div></article>
+        <article data-price="310"><span class="icon" aria-hidden="true">✺</span><h3>Овсяная каша</h3><p>С бананом и корицей</p><div class="dish-action"><strong>310 ₽</strong><button type="button">Добавить</button></div></article>
+        <article data-price="280"><span class="icon" aria-hidden="true">✦</span><h3>Шоколадный брауни</h3><p>Плотный шоколадный десерт</p><div class="dish-action"><strong>280 ₽</strong><button type="button">Добавить</button></div></article>
+        <article data-price="340"><span class="icon" aria-hidden="true">✦</span><h3>Чизкейк</h3><p>Сливочный десерт на песочной основе</p><div class="dish-action"><strong>340 ₽</strong><button type="button">Добавить</button></div></article>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap footer"><strong>Coffee Food</strong><span>Концепт сайта · демонстрация</span></footer>
+  <button type="button" class="button cart-open" id="cart-open" aria-haspopup="dialog" hidden>Корзина <span id="cart-summary"></span></button>
+  <span class="sr-only" role="status" id="cart-status"></span>
+  <dialog id="cart" aria-labelledby="cart-title">
+    <div class="cart-head"><h2 id="cart-title">Корзина</h2><form method="dialog"><button aria-label="Закрыть корзину" autofocus>×</button></form></div>
+    <p id="cart-empty">Корзина пока пуста.</p>
+    <ul id="cart-items"></ul>
+    <div id="cart-checkout" hidden>
+      <p class="cart-total">Итого <strong id="cart-total"></strong></p>
+      <button type="button" class="button" id="order-preview" aria-expanded="false" aria-controls="order-draft">Показать текст заказа</button>
+      <div id="order-draft" hidden><pre id="order-text"></pre><p>В демо заказ не отправляется.</p></div>
+    </div>
+  </dialog>
+</body>
+</html>
